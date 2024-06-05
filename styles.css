@@ -1,3 +1,5 @@
+/* General styles */
+
 html, body {
     height: 100%;
     margin: 0;
@@ -16,7 +18,7 @@ header {
     width: 100%;
     padding: 20px 0;
     text-align: center;
-    background: linear-gradient(90deg, #FF9933 33%, #FFFFFF 33%, #FFFFFF 66%, #26a91a 66%);
+    background: linear-gradient(90deg, #FF9933 33%, #FFFFFF 33%, #FFFFFF 66%, #138808 66%);
     color: #000080;
 }
 
@@ -29,6 +31,7 @@ main {
     flex: 1;
     width: 80%;
     margin-top: 20px;
+    overflow-x: auto; /* Add horizontal scrolling */
 }
 
 table {
@@ -82,4 +85,18 @@ tbody tr:last-of-type {
 .footer span {
     display: inline-block;
     margin: 0 5px;
+}
+
+/* Responsive styles */
+
+@media only screen and (max-width: 768px) {
+    main {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
 }
