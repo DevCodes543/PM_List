@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
     const data = [
-        { "Prime Minister": "Harendra", "Term Start": "1200 BC", "Term End": "August 15, 1947", "Time in Office": "Calculate YourSelf", "Party": "Saturday Night" },
         { "Prime Minister": "Jawaharlal Nehru", "Term Start": "August 15, 1947", "Term End": "May 27, 1964", "Time in Office": "16 years, 286 days", "Party": "Indian National Congress" },
         { "Prime Minister": "Gulzarilal Nanda (Acting)", "Term Start": "May 27, 1964", "Term End": "June 9, 1964", "Time in Office": "13 days", "Party": "Indian National Congress" },
         { "Prime Minister": "Lal Bahadur Shastri", "Term Start": "June 9, 1964", "Term End": "January 11, 1966", "Time in Office": "1 year, 216 days", "Party": "Indian National Congress" },
